@@ -1,0 +1,10 @@
+import time
+
+file = open('status.txt','w')
+while(True):
+    time.sleep(2)
+    file.write("300,300,0")
+    print "done"
+    file.close()
+    
+    
